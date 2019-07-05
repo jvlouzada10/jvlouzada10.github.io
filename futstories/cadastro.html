@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>FutStories</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" type="text/css" href="css/estilo.css" />
+  <link rel="shortcut icon" href="imagens/favicon.ico" />
+  <link rel="stylesheet" href="public/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="public/js/bootstrap.bundle.js" />
+</head>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<body>
+  <div id="topo">
+    <div class="logo">
+      <a href="index.html"><img id="logo" src="imagens/logo.png"></a>
+    </div>
+  </div>
+  <div id="navv">
+    <nav class="navbar navbar-expand-lg navbar-light bg-success">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+        <div id="menuzim">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Página Inicial<span class="sr-only">(página atual)</span></a>
+            </li>
+            <li class="nav-item dropdown active">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Times
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="atleticomg.html">Atlético-MG</a>
+                <a class="dropdown-item" href="botafogo.html">Botafogo</a>
+                <a class="dropdown-item" href="corinthians.html">Corinthians</a>
+                <a class="dropdown-item" href="cruzeiro.html">Cruzeiro</a>
+                <a class="dropdown-item" href="flamengo.html">Flamengo</a>
+                <a class="dropdown-item" href="fluminense.html">Fluminense</a>
+                <a class="dropdown-item" href="gremio.html">Grêmio</a>
+                <a class="dropdown-item" href="internacional.html">Internacional</a>
+                <a class="dropdown-item" href="palmeiras.html">Palmeiras</a>
+                <a class="dropdown-item" href="santos.html">Santos</a>
+                <a class="dropdown-item" href="saopaulo.html">São Paulo</a>
+                <a class="dropdown-item" href="vasco.html">Vasco</a> 
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="noticias.html">Notícias</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="cadastro.html">Cadastro</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="contato.html">Contato</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+</nav>
+</nav>
+</div>
+<div id="pgnot">
+  <div id="conteudo">
+    <div class="cadastro">
+      <h1> Cadastre-se em nosso site!</h1> 
+      <form method="post" action="futstories@hotmail.com">
+        <div class="form-group">
+          <label for="Nome">Nome:</label>
+          <input type="name" class="form-control" placeholder="Nome Completo" required="">
+        </div>
+        <div class="form-group">
+          <label for="Nome">Endereço:</label>
+          <input type="text" class="form-control" placeholder="Rua" required="">
+          <input type="text" class="form-control" placeholder="Cidade" required="">
+          <div class="form-inline">
+            <input type="text" class="form-control col-sm-5" placeholder="Estado" required="">
+            <div class="col-sm-2"></div>
+            <input type="text" class="form-control col-sm-5" placeholder="CEP" required="">
+          </div>
+        </div>
+
+        <div class="form-group form-inline">
+          <label for="telefone" class="col-sm-2">Telefone:</label>
+          <input type="tel" class="form-control col-sm-4" placeholder="(xx)xxxxx-xxxx" required="">
+          <label for="Nome" class="col-sm-2">Profissão:</label>
+          <input type="text" class="form-control col-sm-4" placeholder="Profissao" required="">
+        </div>
+        <div class="form-group form-inline">
+          <label for="data" class="col-sm-2">Nascimento:</label>
+          <input type="date" class="form-control col-sm-4" required="">
+          <label for="cpf" class="col-sm-2">CPF:</label>
+          <input type="text" class="form-control col-sm-4" placeholder="CPF" required="">
+        </div>
+        <div class="form-group">
+          <label for="email">E-mail:</label>
+          <input type="email" class="form-control" required="">
+        </div>
+        <div class="form-group">
+          <label for="estadocivil">Estado Civil:</label>
+          <select class="form-control" id="exampleFormControlSelect1" required="">
+            <option>Casado(a)</option>
+            <option>Solteiro(a)</option>
+            <option>Divorciado(a)</option>
+            <option>Viúvo(a)</option>
+            <option>Separado(a)</option>
+          </select>
+        </div>
+        <div class="form-group form-inline">
+          <label for="sexo" class="col-sm-1">Sexo: </label>
+          <div class="col-sm-1"></div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="Masculino">
+            <label class="form-check-label" for="exampleRadios1">
+              Masculino
+            </label>
+          </div>
+          <div class="col-sm-1"></div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="Feminino">
+            <label class="form-check-label" for="exampleRadios2">
+              Feminino
+            </label>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Observações:</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn-success">Cadastrar</button>
+      </form>
+      
+    </div>
+  </div>
+</div>
+</div>
+</body>
+</html>
